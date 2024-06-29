@@ -1,0 +1,849 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.one h2{
+    margin-top: 45px;
+    padding-left: 50px;
+}
+img{
+    height: 50px;
+    width: 50px ;
+    margin-top: 35px;
+}
+.two ul  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+.two ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-size: 17px;
+}
+.two ul li :hover{
+    text-decoration: underline;
+    color: black;
+}
+.three ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.three ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+.three ul li a i{
+    font-size: 25px;
+}
+.bg{
+    background-image:url('background.jpg');
+    background-position:center ;
+    background-size: cover;
+    height: 700px;
+
+}
+.four h1{
+    padding-top: 300px;
+}
+.four p{
+    margin-top: 20px;
+}
+.four button{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    border: 2px solid orange;
+}
+.four button:hover{
+    color: white;
+    background-color: orange;
+    transition: 0.5s;
+
+}
+.five img{
+    height: 500px;
+    width: 500px;
+    padding: 50px 50px;
+}
+.six h1{
+    padding:80px;
+    text-align: center;
+}
+.seven {
+    text-align: center;
+}
+.seven i{
+    font-size: 80px;
+    padding: 20px;
+    color: red;
+}
+.seven h3{
+    padding: 20px;
+}
+.seven p{
+    width: 80%;
+    margin: auto;
+}
+.bgcolor{
+    background-color: lightgrey;
+    height: 250px;
+    width: 380px;
+}
+.bgcolor1{
+    background-color: lightgrey;
+    height: 250px;
+    width: 380px;
+}
+.bgcolor2{
+    background-color: lightgrey;
+    height: 250px;
+    width: 380px;
+}
+.eight {
+    text-align: center;
+}
+.eight i{
+    font-size: 80px;
+    padding: 20px;
+    color: red;
+}
+.eight h3{
+    padding: 20px;
+}
+.eight p{
+    width: 80%;
+    margin: auto;
+}
+.nine {
+    text-align: center;
+}
+.nine i{
+    font-size: 80px;
+    padding: 20px;
+    color:red;
+}
+.nine h3{
+    padding: 20px;
+}
+.nine p{
+    width: 80%;
+    margin: auto;
+}
+.ten{
+    padding-top: 250px;
+}
+.ten p{
+    padding-top: 20px;
+}
+.ten h2{
+    padding-top: 30px;
+}
+.ten i{
+    padding-top: 40px;
+    padding-right: 200px;
+}
+.eleven img{
+    height: 600px;
+    width: 600px;
+    padding-top: 100px;
+}
+.ss{
+    border: 1px solid black;
+    margin-top: 20px; 
+    width: 70%;  
+}
+.bgcol{
+    background-color: lightgray;
+    /* padding-top: 100px; */
+    height: 300px;
+}
+.twelve h1{
+    padding-top: 120px;
+    text-align: center;
+}
+.main{
+    margin-top: 200px;
+}
+.twelve p {
+    text-align: center;
+    padding: 10px;
+}
+.twelve p a {
+    text-decoration: none;
+    color: green;
+}
+.twelve p a:hover{
+    color: orangered;
+    text-decoration: underline;
+    transition: 0.1s;
+} 
+.thirteen img{
+    height: 600px;
+    width: 600px;
+    padding-top: 100px;
+}
+.fourteen{
+    padding-left: 80px;
+    padding-top: 250px;
+}
+.fourteen h1{
+    font-size: 50px;
+}
+.fourteen p{
+    padding-bottom: 10px;
+}
+.fourteen button{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    border: 2px solid orange;
+    background-color: white;
+}
+.fourteen button:hover{
+    color: white;
+    background-color: orange;
+    transition: 0.5s;
+}
+.fourteen button a{
+    text-decoration: none;
+}
+.fifteen img{
+    padding-top: 100px;
+    height: 500px;
+    width: 600px;
+}
+.sixteen img{
+    height: 200px;
+    width: 200px;
+    padding-top: 100px;
+    padding-left:70px;
+
+}
+.sixteen h1{
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+.sixteen a{
+    text-decoration: none;
+    padding-left: 100px;
+}
+.sixteen p{
+    margin-top: 20px;
+}
+.sixteen p a:hover{
+    color: orangered;
+    text-decoration:underline;
+    transition: 0.5s;
+}
+.bg1{
+    background-color: lightgray;
+    width: 500px;
+    height:500px ;
+    margin-top: 100px;
+    padding-left: 120px;
+}
+.main1{
+    margin-top: 35px;
+}
+.seventeen h1{
+    font-size: 40px;
+}
+.main2{
+    padding-top: 110px;
+}
+.seventeen p{
+    padding-top: 10px;
+}
+.seve{
+    padding-top: 100px;
+}
+.seventeen button{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: white;
+    border: 2px solid orange;
+}
+.seventeen button a{
+    text-decoration: none;
+}
+.seventeen button:hover{
+    color: white;
+    background-color: orange;
+    transition: 0.5s;
+}
+.eightneen img{
+    height: 370px;
+    width: 300px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+.eig{
+    position: relative;
+}
+.eightneen h3{
+    position: absolute;
+    bottom: 20px;
+    left: 105px;
+    margin-bottom: 50px;
+}
+.eightneen h4{
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+     margin-bottom: 50px;
+}
+.nineteen img{
+    height: 370px;
+    width: 300px;
+}
+.nin{
+    position: relative;
+}
+.nineteen h3{
+    position: absolute;
+    bottom: 20px;
+    left: 95px;
+    margin-bottom: 50px;
+}
+.nineteen h4{
+    position: absolute;
+    bottom: 0px;
+    left: 130px;
+    margin-bottom: 50px;
+}
+.twenty h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+.twentyone img{
+    height: 450px;
+    width: 380px;
+}
+.twentytwo img{
+    height: 450px;
+    width: 380px;
+}
+.twentythree img{
+    height: 450px;
+    width: 380px;
+}
+.main3{
+    padding-top: 30px;
+}
+.twe{
+    position: relative;
+}
+.twentyone h3{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin-bottom: 50px;
+}
+.twentyone h4{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    margin-bottom: 50px;
+}
+.twentytwo h3{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin-bottom: 50px;
+}
+.twentytwo h4{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    margin-bottom: 50px;
+}
+.twentythree h3{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin-bottom: 50px;
+}
+.twentythree h4{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    margin-bottom: 50px;
+}
+.twentyfour h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.twentyfive img{
+    height: 500px;
+    width: 350px;
+}
+.twee{
+    position: relative;
+}
+.twentyfive h3{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin-bottom: 50px;
+}
+.twentyfive h4{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    margin-bottom: 50px;
+}
+.thee{
+    position: relative;
+}
+.twentysix img{
+    height: 500px;
+    width: 350px;
+}
+.twentysix h3{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin-bottom: 50px;
+}
+.twentysix h4{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    margin-bottom: 50px;
+}
+.theee{
+    position: relative;
+}
+.twentyseven img{
+    height: 500px;
+    width: 350px;
+}
+.twentyseven h3{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin-bottom: 50px;
+}
+.twentyseven h4{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    margin-bottom: 50px;
+}
+.twentyeight img{
+    height: 500px;
+    width: 350px;
+}
+.eig{
+    position: relative;
+}
+.twentyeight img{
+    height: 500px;
+    width: 350px;
+}
+.twentyeight h3{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin-bottom: 50px;
+}
+.twentyeight h4{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    margin-bottom: 50px;
+}
+.nin{
+    position: relative;
+}
+.twentynine img{
+    height: 500px;
+    width: 350px;
+}
+.twentynine h3{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin-bottom: 50px;
+}
+.twentynine h4{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    margin-bottom: 50px;
+}
+.thir{
+    position: relative;
+}
+.thirty img{
+    height: 500px;
+    width: 350px;
+}
+.thirty h3{
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    margin-bottom: 50px;
+}
+.thirty h4{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+    margin-bottom: 50px;
+}
+.thirtyone h1{
+    font-size: 40px;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.thirtytwo img{
+    height: 100px;
+    width: 100px;
+}
+.thirtythree img{
+    height: 100px;
+    width: 100px;
+}
+.thirtyfour img{
+    height: 100px;
+    width: 100px;
+}
+.thirtyfive img{
+    height: 100px;
+    width: 100px;
+}
+.thirtysix img{
+    height: 100px;
+    width: 100px;
+}
+.thirtyseven img{
+    height: 100px;
+    width: 100px;
+}
+.thirtyeight img{
+    height: 100px;
+    width: 100px;
+}
+.thirtynine img{
+    height: 100px;
+    width: 100px;
+}
+.fourty ul li:hover{
+    color: orange;
+    transition: 1s;
+}
+.fourty h1{
+    padding-top: 150px;
+}
+.fourty p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fourty ul li a{
+    text-decoration: none;
+    color: black;
+    font-size:16px;
+
+}
+.fourty{
+    width: 30%;
+    
+}
+.fourtyone {
+    width: 70%;
+}
+.fourty ul li{
+    padding-top: 5px;
+}
+.fourty ul li a:hover{
+    color: orange;
+    transition: 1s;
+}
+.fourtyone{
+    padding-top: 160px;
+    margin-left: 420px;
+}
+.fourtyone input[type=text]{
+    border: 2px solid lightgray;
+    height: 70px;
+    width: 250px;
+}
+.fourtyone input[type="email"]{
+    margin-left: -5px;
+    border: 2px solid lightgray;
+    height: 70px;
+    width: 255px;
+}
+.fourtyone textarea{
+    padding-top: 0px;
+    padding-left: 0px;
+    border: 2px solid lightgray;
+}
+.fourtyone button{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border: 2px solid orangered;
+}
+.fourtyone button a{
+    text-decoration: none;
+}
+.fourtyone button:hover{
+    color: white;
+    background-color: orangered;
+    transition: 0.5s;
+}
+.fourtyfour img{
+    height: 120px;
+    width: 120px;
+}
+.fourtyfive h3 a{
+    text-decoration: none;
+    color: black;
+
+}
+.fourtyfive h3{
+    padding-top: 12px;
+}
+.fourtysix h3 a{
+    text-decoration: none;
+    color: black;
+
+}
+.fourtysix h3{
+    padding-top: 12px;
+}
+.bg7{
+    padding-top: 50px;
+    background-color: lightgray;
+    padding-bottom: 100px;
+
+}
+.main21{
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+}
+
+.fourtyseven input[type=email]{
+    height: 40px;
+    width: 150px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.fourtyseven button a{
+    text-decoration: none;
+}
+.fourtyseven button{
+    height: 45px;
+    width: 80px;
+    color: black;
+    background-color: white;
+    
+}
+.fourtyseven  :hover{
+    background-color: black;
+    color: white;
+}
+.csd{
+    padding-right: 100px;
+}
+.fourtyfive h3 a:hover{
+    color: orangered;
+    transition: 0.5s;
+}
+.fourtysix h3 a:hover{
+    color: orangered;
+    transition: 0.5s;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:468px){
+    .flex{
+        display: block;
+    }
+    .one img{
+        height: 150px;
+        width: 150px;
+    }
+    .one h2{
+        font-size: 50px;
+    }
+    .two,.three{
+        display: none;
+    }
+    .five img{
+        display: none;
+    }
+    .four h1{
+        margin-top: 50px;
+        font-size: 100px;
+    }
+    .four button{
+        margin-top: 100px;
+        height: 150px;
+        width: 500px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .four p{
+        font-size: 60px;
+    }
+    .bg{
+        height: 1800px;
+        width: 1200px;
+    }
+    .six h1{
+        font-size: 100px;
+        /* text-align: center; */
+        margin-left: 100%;
+        padding-top: 200px;
+        padding-bottom: 250px;
+    }
+    .bgcolor{
+        height: 900px;
+        width: 1000px;
+        margin-left: 60px;
+    }
+    .seven i{
+        font-size: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .seven h3{
+        font-size: 60px;
+    }
+    .seven p{
+        font-size: 60px;
+    }
+    .bgcolor1{
+        margin-top: 100px;
+        height: 900px;
+        width: 1000px;
+        margin-left: 60px;
+    }
+    .eight i{
+        font-size: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .eight h3{
+        font-size: 60px;
+    }
+    .eight p{
+        font-size: 60px;
+    }
+    .bgcolor2{
+        margin-top: 100px;
+        height: 900px;
+        width: 1000px;
+        margin-left: 60px;
+    }
+    .nine i{
+        font-size: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .nine h3{
+        font-size: 60px;
+    }
+    .nine p{
+        font-size: 60px;
+    }
+    .ten h1{
+        font-size: 90px;
+        /* width: 100%; */
+    }
+    .ten{
+        width: 100%;
+    }
+    .ten p{
+        font-size: 70px;
+        margin-bottom: 60px;
+    }
+    .ss{
+        width: 450%;
+    }
+    .ten h2{
+        margin: 30px 30px;
+        font-size: 60px;
+    }
+    .ten i{
+        font-size: 50px;
+        padding-left:600px
+    }
+    .eleven img{
+        margin-left: 80px;
+        height: 1000px;
+        width: 1000px;
+    }
+    .bgcol{
+        margin-top: 100px;
+        height: 1800px;
+        width: 1000px;
+        margin-left: 70px;
+    }
+    .twelve h1{
+       padding-top: 700px;
+        font-size: 70px;
+    }
+    .twelve p{
+        margin-top: 20px;
+    }
+    .twelve p a{
+        font-size: 60px;
+    }
+    .thirteen img{
+        height: 1200px;
+        width: 1000px;
+        padding-left: 70px;
+    }
+    .fourteen h1{
+        margin-left: 10px;
+        font-size: 100px;
+    }
+    .fourteen p{
+        /* margin-left: 10px; */
+        font-size: 50px;
+    }
+    .fourteen button a{
+        font-size: 40px;
+    }
+    .fourteen button{
+        height: 150px;
+        width: 450px;
+    }
+
+
+
+}
